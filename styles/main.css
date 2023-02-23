@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;1,300&family=Lato:ital,wght@0,100;0,300;1,100;1,300&display=swap');body,html{height:100%;width:100%;margin:0;padding:0;left:0;top:0;font-size:100%}.center,.container{margin-left:auto;margin-right:auto}*{font-family:Lato,Helvetica,sans-serif;color:#333447;line-height:1.5}h1{font-size:2.5rem}h2{font-size:2rem}h3{font-size:1.375rem}h4{font-size:1.125rem}h5{font-size:1rem}h6{font-size:.875rem}.font-light{font-weight:300}.font-regular{font-weight:400}.font-heavy{font-weight:700}.left{text-align:left}.right{text-align:right}.center{text-align:center}.justify{text-align:justify}.container{width:90%}.row{position:relative;width:100%}.row [class^=col]{float:left;margin:.5rem 2%;min-height:.125rem}.col-1,.col-10,.col-11,.col-12,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9{width:96%}.col-1-sm{width:4.33%}.col-2-sm{width:12.66%}.col-3-sm{width:21%}.col-4-sm{width:29.33%}.col-5-sm{width:37.66%}.col-6-sm{width:46%}.col-7-sm{width:54.33%}.col-8-sm{width:62.66%}.col-9-sm{width:71%}.col-10-sm{width:79.33%}.col-11-sm{width:87.66%}.col-12-sm{width:96%}.row::after{content:"";display:table;clear:both}.hidden-sm{display:none}@media only screen and (min-width:33.75em){.container{width:80%}}@media only screen and (min-width:45em){.col-1{width:4.33%}.col-2{width:12.66%}.col-3{width:21%}.col-4{width:29.33%}.col-5{width:37.66%}.col-6{width:46%}.col-7{width:54.33%}.col-8{width:62.66%}.col-9{width:71%}.col-10{width:79.33%}.col-11{width:87.66%}.col-12{width:96%}.hidden-sm{display:block}}@media only screen and (min-width:60em){.container{width:75%;max-width:60rem}}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background-color: #D9D9D9;
+  background-image: url('https://i.ibb.co/d41KVt7/fishyher00.jpg');
+  background-size: 100vw 600px;
+  background-repeat: no-repeat;
+}
+
+/* quote styling */
+blockquote {
+  font-family: Inria Serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.25em;
+  border-left: 10px solid #D9D9D9;
+  padding-left: 20px;
+  margin: 0 10px 10px 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  color: #fff;
+  font-size: .9em;
+  margin-top: 0;
+}
+
+h2,
+h3,
+a {
+	color: #000;
+}
+
+h2, h3 { 
+  font-family: Inria Serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* helpers */
+.container-pad {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float:left;
+}
+
+.no-margin {
+  margin-top: 0;
+}
+
+.content-top { padding-top: 5vh; }
+
+
+/* main content */
+.main {
+  background: #fff;
+  padding: 3em;
+}
+
+.main p { font-weight: 300; font-size: 1.1rem; }
+
+.main-header {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+/* aside with fish tank cleaning tips */
+.fish-aside {
+  background: rgb(6,10,9);
+  background: linear-gradient(180deg, rgba(6,10,9,1) 0%,      rgba(30,71,133,1) 100%);
+  padding: 3em 2em;
+}
+
+.fish-aside p { color:#fff; font-size: 1.1rem; font-weight: 300; margin-top: 0; }
+
+.fish-aside li { font-size: 1.1rem; }
+
+/* aside h4 */
+.aside-heading {
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.aside-list-heading {
+  color: #fff;
+  font-family: Inria Serif;
+  font-style: italic;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.li-fish-name {
+  
+  font-family: Inria Serif;
+  font-style: italic;
+  font-size: 1.1em;
+  color: #000;
+}
+
+.li-fish-location {
+  
+  font-family: Inria Serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* navigation bar */
+/* header wrapper */
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background: #171717;
+  margin: auto;
+}
+
+.logo a { color: #fff; font-size: 1.25em; }
+
+header h1 { margin: 0; }
+
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+  font-family: Lato;
+  font-weight: 100;
+	text-align: center;
+	display: block;
+}
+
+.logo {
+  margin: auto;
+}
+
+.logo-img {
+  width: 50%;
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+}
+
+.main-nav a {
+	color: #fff;
+  font-family: Inria Serif;
+	font-size: 1.1em;
+  text-transform: UPPERCASE;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.main-nav a:hover {
+	color: #0377C4;
+}
+
+
+.fish-images {
+  width: 100%;
+  max-width: 100px;
+  height: 100px;
+  margin: 0 15px 0 0;
+
+}
+
+/* footer */
+.footer {
+  background: #171717;
+}
+
+.footer-container {
+  width: 100%;
+}
+
+.footer p {
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    margin: 0 auto;
+	}
+	}
+
+
+
+
+@media (max-width: 1900px) {
+  body {
+  background-image: url('https://i.ibb.co/d41KVt7/fishyher00.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 769px) {
+  body {
+  background-image: url('https://i.ibb.co/4FjsmNk/fishybg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 769px) {
+  .logo-img {
+    width: 35%;
+  }
+}
