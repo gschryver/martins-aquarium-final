@@ -236,24 +236,15 @@ footer
 	}
 	}
 
-@media (max-width: 1900px) {
-  body {
-  background-image: url('https://i.ibb.co/d41KVt7/fishyher00.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  }
-}
 
-@media (max-width: 769px) {
-  body {
-  background-image: url('https://i.ibb.co/4FjsmNk/fishybg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  }
-}
-
-@media (min-width: 414px) and (max-width: 769px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .logo-img {
     width: 35%;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  .logo-img {
+    width: 75%;
   }
 }
